@@ -41,7 +41,7 @@ You'll find it at settings => Menu Popup
 
 = How do I get a link to popup if it is not a menu item? =
 
-You can use my Alligator Popup plugin for that [Alligator Popup plugin](https://wordpress.org/plugins/alligator-popup/ "Alligator Popup plugin")
+You can use my [Alligator Popup plugin](https://wordpress.org/plugins/alligator-popup/ "Alligator Popup plugin") for that.
 
 = I am using the plugin and it has saved me time and/or hassle; how can I show my appreciation? =
 
@@ -50,8 +50,6 @@ You can donate via [my donation page](http://cubecolour.co.uk/wp/ "cubecolour do
 = Why is it not working for me? =
 
 If the plugin isn't working for you, please read all of the documentation again. If this doesn't help, check the posts on the plugin's forum to see if your issue has already been covered there. If you still have a problem, please post a question on the [plugin support forum](https://wordpress.org/plugins/alligator-menu-popup/ "Alligator Menu Popup plugin support forum")
-
-If you do have a problem, don't leave a review before posting your problem on the support forum first.
 
 == Screenshots ==
 
@@ -66,4 +64,3 @@ If you do have a problem, don't leave a review before posting your problem on th
 
 = 1.0.0 =
 * Initial Version
-
