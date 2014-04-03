@@ -3,7 +3,7 @@
 Plugin Name: Alligator Menu Popup
 Plugin URI: http://cubecolour.co.uk/alligator-menu-popup/
 Description: Add the 'mpopup' class to a menu item in a custom menu to open the target in a popup Window.
-Author: Michael Atkins
+Author: cubecolour
 Version: 1.0.0
 Author URI: http://cubecolour.co.uk/
 License: GPLv2
