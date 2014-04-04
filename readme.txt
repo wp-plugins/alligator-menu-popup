@@ -22,6 +22,7 @@ You will find the Alligator Menu Popup Settings Page at Settings => Menu Popup
 * Set the dimensions of the popup window and whether you want the popup window to be scrollable
 
 Then edit your custom menu at Appearance => Menus
+
 * Enable the CSS Classes option in the Screen Options pull-down panel on the menu editor page.
 
 * Add the mpopup class to any menu item where you want the target page to open in a popup window.
