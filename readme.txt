@@ -1,11 +1,12 @@
 === Alligator Menu Popup ===
 Contributors: numeeja
 Donate link: http://cubecolour.co.uk/wp
-Tags: popup, popups, popup window, jQuery, shortcode, simple, popup link
+Tags: menu, popup, new window, popups, popup window, simple, popup link
 Requires at least: 3.8
 Tested up to: 3.9
 Stable tag: 1.0.0
 License: GPLv2
+
 
 Add the 'mpopup' class to a menu item in a custom menu to open the target in a popup Window.
 
