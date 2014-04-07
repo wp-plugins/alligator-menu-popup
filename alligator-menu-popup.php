@@ -54,7 +54,7 @@ function cc_mpopup_meta_links( $links, $file ) {
 	
 		$adminlink = admin_url( 'options-general.php?page=mpopup-settings' );
 		
-		return array_merge( $links, array( '<a href="http://cubecolour.co.uk/wp"><span style="color:#900;font-size:1.3em;">&hearts;&nbsp;</span></a>','<a href="http://twitter.com/cubecolour"><span class="dashicons dashicons-twitter" style=";-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"></span></a>','<a href="' . $adminlink . '"><span class="dashicons dashicons-admin-generic" style=";-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"></span></a>' ) );
+		return array_merge( $links, array( '<a href="http://cubecolour.co.uk/wp"><span style="color:#900;font-size:1.3em;">&hearts;&nbsp;</span></a>','<a href="http://twitter.com/cubecolour"><span class="dashicons dashicons-twitter" style="-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"></span></a>','<a href="' . $adminlink . '"><span class="dashicons dashicons-admin-generic" style="-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"></span></a>' ) );
 	}
 	return $links;
 }
