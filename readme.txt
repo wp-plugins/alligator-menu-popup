@@ -7,6 +7,7 @@ Tested up to: 3.9
 Stable tag: 1.0.0
 License: GPLv2
 
+
 Add the 'mpopup' class to a menu item in a custom menu to open the target in a popup Window.
 
 == Description ==
@@ -58,11 +59,16 @@ If the plugin isn't working for you, please read all of the documentation again.
 
 == Changelog ==
 
+= 1.0.1 =
+* added 'resizable=yes' for IE to enable maximise button on popped up window
+
 = 1.0.0 =
 * Initial Version
 
 == Upgrade Notice ==
 
+= 1.0.1 =
+*  In IE enables the maximise button to be active on the popped up window.
+
 = 1.0.0 =
 * Initial Version
-
