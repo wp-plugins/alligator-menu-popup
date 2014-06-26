@@ -1,29 +1,29 @@
 === Alligator Menu Popup ===
 Contributors: numeeja
 Donate link: http://cubecolour.co.uk/wp
-Tags: menu, popup, new window, popups, popup window, simple, popup link
-Requires at least: 3.8
-Tested up to: 3.9
-Stable tag: 1.0.0
+Tags: popup, popups, popup window, jQuery, shortcode, simple, popup link
+Requires at least: 3.9
+Tested up to: 3.9.1
+Stable tag: 1.0.1
 License: GPLv2
-
 
 Add the 'mpopup' class to a menu item in a custom menu to open the target in a popup Window.
 
 == Description ==
 
-This plugin allows you open the target of a menu item in your WordPress custom menu in a popup window. It was developed as a fork of my [Alligator Popup plugin](https://wordpress.org/plugins/alligator-popup/ "Alligator Popup plugin") which opens links within the page content in a popup window.
+This is a fork of my similarly named Alligator Popup Plugin. Unlike the original plugin, this one enables you to open the target of a menu item of your WordPress custom menu in a popup window.
 
-An admin page allows you can control the size of the popup window and whether it has scrollbars. Add the 'mpopup' class to a menu item in a custom menu to open the target in a popup Window.
+Add the 'mpopup' class to a menu item in a custom menu to open the target in a popup Window.
+
+Enables you to specify that a menu item on your WordPress custom menu will open in a new popup window. An admin page allows you can control the size of the popup window and whether it has scrollbars.
 
 #### Usage:
 
-You will find the Alligator Menu Popup Settings Page at Settings => Menu Popup
+You will find the Menu Popup Settings Page at Settings => Menu Popup
 
 * Set the dimensions of the popup window and whether you want the popup window to be scrollable
 
 Then edit your custom menu at Appearance => Menus
-
 * Enable the CSS Classes option in the Screen Options pull-down panel on the menu editor page.
 
 * Add the mpopup class to any menu item where you want the target page to open in a popup window.
@@ -43,23 +43,17 @@ You'll find it at settings => Menu Popup
 
 = How do I get a link to popup if it is not a menu item? =
 
-You can use my [Alligator Popup plugin](https://wordpress.org/plugins/alligator-popup/ "Alligator Popup plugin") for that.
+You can use my Alligator Popup plugin for that
 
-= I am using the plugin and it has saved me time and/or hassle; how can I show my appreciation? =
+= Why doesn't it work for me? =
 
-You can donate via [my donation page](http://cubecolour.co.uk/wp/ "cubecolour donation page")
-
-= Why is it not working for me? =
-
-If the plugin isn't working for you, please read all of the documentation again. If this doesn't help, check the posts on the plugin's forum to see if your issue has already been covered there. If you still have a problem, please post a question on the [plugin support forum](https://wordpress.org/plugins/alligator-menu-popup/ "Alligator Menu Popup plugin support forum")
-
-== Screenshots ==
-
-1. The Admin Page
+It works for me, but all sites are different. Post a support request and I'll try to help you get it working
 
 == Changelog ==
 
 = 1.0.1 =
+* Tooltips added to links in the plugins table
+* Used new heart icon in dashicons WP 3.9
 * added 'resizable=yes' for IE to enable maximise button on popped up window
 
 = 1.0.0 =
@@ -68,7 +62,13 @@ If the plugin isn't working for you, please read all of the documentation again.
 == Upgrade Notice ==
 
 = 1.0.1 =
-*  In IE enables the maximise button to be active on the popped up window.
+* Tooltips added to links in the plugins table
+* Used new heart icon in dashicons WP 3.9
+* added 'resizable=yes' for IE to enable maximise button on popped up window
 
 = 1.0.0 =
 * Initial Version
+
+== Screenshots ==
+* screenshot-01.png
+

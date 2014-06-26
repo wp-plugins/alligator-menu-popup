@@ -3,7 +3,7 @@
 Plugin Name: Alligator Menu Popup
 Plugin URI: http://cubecolour.co.uk/alligator-menu-popup/
 Description: Add the 'mpopup' class to a menu item in a custom menu to open the target in a popup Window.
-Author: cubecolour
+Author: Michael Atkins
 Version: 1.0.1
 Author URI: http://cubecolour.co.uk/
 License: GPLv2
@@ -44,20 +44,30 @@ require_once(plugin_dir_path( __FILE__ ) . "admin.php");
 // ==============================================
  
 add_filter( 'plugin_row_meta', 'cc_mpopup_meta_links', 10, 2 );
-
 function cc_mpopup_meta_links( $links, $file ) {
 
 	$plugin = plugin_basename(__FILE__);
 	
-	// create the links
+// create the links
 	if ( $file == $plugin ) {
-	
+
+		$supportlink = 'http://wordpress.org/support/plugin/alligator-menu-popup';
+		$donatelink = 'http://cubecolour.co.uk/wp';
+		$twitterlink = 'http://twitter.com/cubecolour';
+		$iconstyle = 'style="-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"';
 		$adminlink = admin_url( 'options-general.php?page=mpopup-settings' );
 		
-		return array_merge( $links, array( '<a href="http://cubecolour.co.uk/wp"><span style="color:#900;font-size:1.3em;">&hearts;&nbsp;</span></a>','<a href="http://twitter.com/cubecolour"><span class="dashicons dashicons-twitter" style="-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"></span></a>','<a href="' . $adminlink . '"><span class="dashicons dashicons-admin-generic" style="-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"></span></a>' ) );
+		return array_merge( $links, array(
+			'<a href="' . $adminlink . '"><span class="dashicons dashicons-admin-generic" ' . $iconstyle . ' title="Alligator Menu Popup Admin"></span></a>',
+			'<a href="' . $supportlink . '"> <span class="dashicons dashicons-lightbulb" ' . $iconstyle . ' title="Alligator Menu Popup Support"></span></a>',
+			'<a href="' . $twitterlink . '"><span class="dashicons dashicons-twitter" ' . $iconstyle . ' title="Cubecolour on Twitter"></span></a>',
+			'<a href="' . $donatelink . '"><span class="dashicons dashicons-heart"' . $iconstyle . ' title="Donate"></span></a>'
+		) );
 	}
+	
 	return $links;
 }
+
 
 // ==============================================
 // Add the Javascript to Popup the Window
