@@ -4,7 +4,7 @@ Donate link: http://cubecolour.co.uk/wp
 Tags: menu, popup, new window, popups, popup window, simple, popup link
 Requires at least: 3.8
 Tested up to: 3.9
-Stable tag: 1.0.1
+Stable tag: 1.0.0
 License: GPLv2
 
 
@@ -59,16 +59,10 @@ If the plugin isn't working for you, please read all of the documentation again.
 
 == Changelog ==
 
-= 1.0.1 =
-* added 'resizable=yes' for IE to enable maximise button on popped up window
-
 = 1.0.0 =
 * Initial Version
 
 == Upgrade Notice ==
-
-= 1.0.1 =
-*  In IE enables the maximise button to be active on the popped up window.
 
 = 1.0.0 =
 * Initial Version
