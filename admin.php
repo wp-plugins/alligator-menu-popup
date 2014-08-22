@@ -4,7 +4,7 @@
 
 	Package: Alligator Menu Popup plugin for WordPress
 	Author: cubecolour
-	Version: 1.0.0
+	Version: 1.0.2
 	
 	File: Admin Panel
 	admin.php

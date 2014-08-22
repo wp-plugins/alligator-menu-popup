@@ -3,7 +3,7 @@ Contributors: numeeja
 Donate link: http://cubecolour.co.uk/wp
 Tags: popup, popups, popup window, jQuery, shortcode, simple, popup link
 Requires at least: 3.9
-Tested up to: 3.9.1
+Tested up to: 4.0
 Stable tag: 1.0.1
 License: GPLv2
 
@@ -51,6 +51,8 @@ It works for me, but all sites are different. Post a support request and I'll tr
 
 == Changelog ==
 
+= 1.0.2 =
+
 = 1.0.1 =
 * Tooltips added to links in the plugins table
 * Used new heart icon in dashicons WP 3.9
@@ -60,6 +62,9 @@ It works for me, but all sites are different. Post a support request and I'll tr
 * Initial Version
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+
 
 = 1.0.1 =
 * Tooltips added to links in the plugins table

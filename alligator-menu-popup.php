@@ -100,4 +100,3 @@ function cc_mpopup_script() {
 }
 
 add_action('wp_head', 'cc_mpopup_script');
-
