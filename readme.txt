@@ -3,7 +3,7 @@ Contributors: numeeja
 Donate link: http://cubecolour.co.uk/wp
 Tags: popup, popups, popup window, jQuery, shortcode, simple, popup link
 Requires at least: 3.9
-Tested up to: 4.0
+Tested up to: 4.0.1
 Stable tag: 1.0.1
 License: GPLv2
 
@@ -43,7 +43,7 @@ You'll find it at settings => Menu Popup
 
 = How do I get a link to popup if it is not a menu item? =
 
-You can use my Alligator Popup plugin for that
+You can use the Alligator Popup plugin for that
 
 = Why doesn't it work for me? =
 
