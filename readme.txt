@@ -3,7 +3,7 @@ Contributors: numeeja
 Donate link: http://cubecolour.co.uk/wp
 Tags: popup, popups, popup window, jQuery, shortcode, simple, popup link
 Requires at least: 3.9
-Tested up to: 3.9.1
+Tested up to: 4.0.1
 Stable tag: 1.0.1
 License: GPLv2
 
