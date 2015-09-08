@@ -47,7 +47,13 @@ You can use the Alligator Popup plugin for that
 
 = Why doesn't it work for me? =
 
-It works for me, but all sites are different. Post a support request and I'll try to help you get it working
+It works for me, but all sites are different. Post a support request and I'll try my best to help you get it working
+
+= What levels of support are available? =
+
+You can receive free support for the plugin if you have problems getting it working. To access this, please open a new topic on the [plugin support forum](http://wordpress.org/support/plugin/alligator-menu-popup/ "Alligator Menu Popup plugin support forum"). Don't forget to post a link to a page on your site where I can see the issue. I can provide free support if all communication takes place on the forum.
+
+If you require a greater level of support than can be provided on the plugin support forum on WordPress.org - eg you prefer not to post the url on the public forum and require private communication, you can request premium support via the [premium email support form for cubecolour plugins](http://cubecolour.co.uk/premium-support/ "premium email support form for cubecolour plugins") form.
 
 == Changelog ==
 
