@@ -3,7 +3,7 @@ Contributors: numeeja
 Donate link: http://cubecolour.co.uk/wp
 Tags: popup, popups, popup window, jQuery, shortcode, simple, popup link
 Requires at least: 3.9
-Tested up to: 4.2
+Tested up to: 4.3
 Stable tag: 1.0.1
 License: GPLv2
 
@@ -51,13 +51,13 @@ It works for me, but all sites are different. Post a support request and I'll tr
 
 = What levels of support are available? =
 
-You can receive free support for the plugin if you have problems getting it working. To access this, please open a new topic on the [plugin support forum](http://wordpress.org/support/plugin/alligator-menu-popup/ "Alligator Menu Popup plugin support forum"). Don't forget to post a link to a page on your site where I can see the issue. I can provide free support if all communication takes place on the forum.
+You can receive free support for the plugin if you have problems getting it working. To access this, please open a new topic on the [plugin support forum](http://wordpress.org/support/plugin/alligator-menu-popup/ "Alligator Menu Popup plugin support forum"). Don't forget to post a link to a page on your site where the issue can be seen.
 
-If you require a greater level of support than can be provided on the plugin support forum on WordPress.org - eg you prefer not to post the url on the public forum and require private communication, you can request premium support via the [premium email support form for cubecolour plugins](http://cubecolour.co.uk/premium-support/ "premium email support form for cubecolour plugins") form.
+I can provide free support if all communication takes place on the forum as that support becomes a public resource where people can look for an answers if they have a similar issue in future.
+
+If the free support on the WordPress.org forum does not meet your requirements, and perhaps you prefer not to post the url on the public forum and require private communication as you are making a site for a client, you can request  support via the [premium email support form for cubecolour plugins](http://cubecolour.co.uk/premium-support/ "premium email support form for cubecolour plugins") form.
 
 == Changelog ==
-
-= 1.0.2 =
 
 = 1.0.1 =
 * Tooltips added to links in the plugins table
@@ -68,9 +68,6 @@ If you require a greater level of support than can be provided on the plugin sup
 * Initial Version
 
 == Upgrade Notice ==
-
-= 1.0.2 =
-
 
 = 1.0.1 =
 * Tooltips added to links in the plugins table
